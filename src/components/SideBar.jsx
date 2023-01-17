@@ -8,7 +8,7 @@ const SideBar = () => (
     direction="row"
     sx={{
       overflow: "auto",
-      height: { xs: "auto", md: "95%" },
+      height: { sx: "auto", md: "95%" },
       flexDirection: { md: "column" },
     }}
   >

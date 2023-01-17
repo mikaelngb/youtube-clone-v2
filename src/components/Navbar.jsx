@@ -17,7 +17,12 @@ const Navbar = () => (
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <YouTubeIcon sx={{ color: "red", fontSize: 60 }} />
-      <Typography variant="h5" align="center" mx={1} sx={{ color: "#fff" }}>
+      <Typography
+        variant="h5"
+        align="center"
+        mx={1}
+        sx={{ color: "#fff", display: { xs: "none", md: "flex" } }}
+      >
         Youtube V2
       </Typography>
     </Link>
